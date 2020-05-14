@@ -202,8 +202,6 @@ class Zoom_Api {
 
             );
 			
-			//echo '<pre>'; print_r( $data);print_r( $createAMeetingArray);die;
-
             return $this->sendRequest($createAMeetingArray);
 
         }

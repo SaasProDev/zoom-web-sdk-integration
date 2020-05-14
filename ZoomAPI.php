@@ -203,7 +203,6 @@ class Zoom_Api {
                 'alternative_hosts' => isset( $alternative_host_ids ) ? $alternative_host_ids : ""
 
             );
-			//echo '<pre>'; print_r($data); print_r($createAMeetingArray);die;
             return $this->sendRequest($createAMeetingArray);
 
         }
